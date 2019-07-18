@@ -9,3 +9,5 @@ In this particular project I modeled event data to create a non-relational datab
 In this project I built an ETL pipeline that extracts data from S3, stages them in Redshift, and transforms data into a set of dimensional tables for the analytics team.
 ## Project 4 - Data Lake
 For this project I built, as requested, a data lake and an ETL pipeline in Spak that loads data from s3, processes the data into analytics tables, and loads them back into S3.
+
+Last updated on 07/18/2019
