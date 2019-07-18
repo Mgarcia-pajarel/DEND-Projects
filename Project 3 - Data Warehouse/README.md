@@ -78,3 +78,5 @@ Using the song and log datasets a star schema fully optimized for queries on son
     * artist_id, name, location, lattitude, longitude
 5. <b>dim_time</b> - timestamps of records in <b>songplays</b> broken  down into specific units
     * start_time, hour, day, week, month, year, weekday
+    
+
