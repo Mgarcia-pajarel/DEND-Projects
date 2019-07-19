@@ -68,3 +68,6 @@ Which will provide the following results:
 
 ![](DraggedImage-1.png)
 
+
+
+# Last updated on July 19, 2019
