@@ -56,3 +56,5 @@ Using the song and log datasets, you'll need to create a star schema optimized f
     * artist_id, name, location, lattitude, longitude
 5. <b>time</b> - timestamps of records in <b>songplays</b> broken  down into specific units
     * start_time, hour, day, week, month, year, weekday
+
+Last Updated on July 19, 2019
