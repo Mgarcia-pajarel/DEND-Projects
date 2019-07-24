@@ -18,12 +18,3 @@
   - Port: Paste the value of DWH_PORT from `config.cfg` to this field.
 8. Go to Admin > Variables > Create a variable `redshift_iam_role` with value from DWH_ROLE_ARN. (We use this instead of AWS credentials because this IAM role has less access than )
 9. After completing all tests, remove the RedShift cluster so it does not incur any cost by running `remove.py` script.
-
-Checking Queries (run the following from RedShift's Query Editor):
-
-```
-select * from pg_catalog."stl_load_errors"
-where filename like '%song%'
-order by starttime desc
-limit 10;
-```
