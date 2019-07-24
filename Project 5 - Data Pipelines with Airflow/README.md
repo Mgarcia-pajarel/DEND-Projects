@@ -1,4 +1,6 @@
-1. Update `config_default.cfg` to include your AWS key and secret. The user associated with this key needs to have `AdministratorAccess` (because it needs to add a user role and create a RedShift cluster).
+## This version of te project includes creating the Redshift Cluster via Infrastructure as Code (IaC)
+
+1. Update `config.cfg` to include your AWS key and secret. The user associated with this key needs to have `AdministratorAccess` (because it needs to add a user role and create a RedShift cluster).
 2. Go to Admin > Connections > Create a connection as follows:
   - Conn Id: 'aws_credentials'
   - Login: AWS key (does not have to be the same one with the one used in #1. It needs to have `S3ReadOnlyAccess`)
