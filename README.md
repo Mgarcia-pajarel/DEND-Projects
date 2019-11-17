@@ -10,4 +10,4 @@ In this project I built an ETL pipeline that extracts data from S3, stages them 
 ## Project 4 - Data Lake
 For this project I built, as requested, a data lake and an ETL pipeline in Spak that loads data from s3, processes the data into analytics tables, and loads them back into S3.
 
-Last updated on 07/18/2019
+Last updated on 11/16/2019
